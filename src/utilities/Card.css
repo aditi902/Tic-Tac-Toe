@@ -1,0 +1,6 @@
+.card {
+  justify-content: center;
+  display: grid;
+  place-items: center;
+  grid-template-columns: repeat(3, 8rem);
+}

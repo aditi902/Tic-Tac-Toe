@@ -1,0 +1,9 @@
+body {
+  margin: 0;
+  background-image: linear-gradient(
+    to right,
+    rgb(227, 160, 239),
+    rgb(86, 211, 132)
+  );
+  font-family: 'Stoke', serif;
+}

@@ -1,0 +1,34 @@
+.pointstable {
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  width: 20rem;
+  font-size: 1.5rem;
+  background-color: rgb(242, 245, 247);
+  margin: 3rem auto;
+  box-shadow: 0px 0px 8px rgb(221, 122, 226);
+  border-radius: 0.5rem;
+  font-weight: 900;
+}
+
+.score {
+  width: 100%;
+  text-align: center;
+  padding: 1rem 0;
+}
+
+.x-score {
+  color: rgb(169, 88, 249);
+  border-bottom: 5px solid rgb(169, 88, 249);
+  border-radius: 0.5rem 0 0 0.5rem;
+}
+
+.o-score {
+  color: rgb(55, 198, 55);
+  border-bottom: 5px solid rgb(55, 198, 55);
+  border-radius: 0 0.5rem 0.5rem 0;
+}
+.inactive {
+  border-bottom: 5px solid transparent;
+}
